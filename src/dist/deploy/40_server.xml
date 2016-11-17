@@ -1,10 +1,14 @@
 <qserver name="isodummyserver" logger="Q2" realm="isodummyserver">
 	<attr name="port" type="java.lang.Integer">1121</attr>
-	<channel realm="server-channel"
+	<!-- <channel realm="server-channel"
            logger="Q2"
 					 class="org.jpos.iso.channel.BASE24TCPChannel"
 		       packager="org.jpos.iso.packager.BASE24Packager" header="ISO123456789">
 
+	</channel> -->
+
+	<channel realm="server-channel" logger="Q2" class="org.jpos.iso.channel.BASE24TCPChannel" packager="org.jpos.iso.packager.XMLPackager" header="ISO123456789">
+		<property name="packager-config" value="../../../src/dist/deploy/packager.xml" /> 
 	</channel>
 	<request-listener class="middleware.Server" logger="Q2" realm="request-listener">
 	</request-listener>
