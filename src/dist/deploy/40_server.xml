@@ -7,7 +7,7 @@
 
 	</channel> -->
 
-	<channel realm="server-channel" logger="Q2" class="org.jpos.iso.channel.BASE24TCPChannel" packager="org.jpos.iso.packager.XMLPackager" header="ISO123456789">
+	<channel realm="server-channel" logger="Q2" class="org.jpos.iso.channel.BASE24TCPChannel" packager="org.jpos.iso.packager.GenericPackager" header="ISO123456789">
 		<property name="packager-config" value="../../../src/dist/deploy/packager.xml" /> 
 	</channel>
 	<request-listener class="middleware.Server" logger="Q2" realm="request-listener">
