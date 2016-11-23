@@ -312,8 +312,8 @@
       class="org.jpos.iso.IFA_LLLCHAR"/>
   <isofield
       id="61"
-      length="999"
-      name="RESERVED PRIVATE"
+      length="20"
+      name="RECHARGE RETRIEVAL REFERENCE"
       class="org.jpos.iso.IFA_LLLCHAR"/>
   <isofield
       id="62"
