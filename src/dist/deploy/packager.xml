@@ -207,7 +207,7 @@
       class="org.jpos.iso.IF_CHAR"/>
   <isofield
       id="40"
-      length="3"
+      length="2"
       name="SERVICE RESTRICTION CODE"
       class="org.jpos.iso.IF_CHAR"/>
   <isofield
@@ -254,7 +254,7 @@
       id="49"
       length="3"
       name="CURRENCY CODE, TRANSACTION"
-      class="org.jpos.iso.IF_CHAR"/>
+      class="org.jpos.iso.IFA_NUMERIC"/>
   <isofield
       id="50"
       length="3"
@@ -317,19 +317,19 @@
       class="org.jpos.iso.IFA_LLLCHAR"/>
   <isofield
       id="62"
-      length="999"
+      length="6"
       name="RESERVED PRIVATE"
       class="org.jpos.iso.IFA_LLLCHAR"/>
   <isofield
       id="63"
-      length="999"
+      length="8"
       name="RESERVED PRIVATE"
-      class="org.jpos.iso.IFA_LLLCHAR"/>
+      class="org.jpos.iso.IF_CHAR"/>
   <isofield
       id="64"
       length="8"
       name="MESSAGE AUTHENTICATION CODE FIELD"
-      class="org.jpos.iso.IFA_BINARY"/>
+      class="org.jpos.iso.IF_CHAR"/>
   <isofield
       id="65"
       length="1"
